@@ -14,12 +14,13 @@ let fileToEdit = editJsonFile(`./guilds/${message.guild.id}/timers.json`);
 if(!message.member.hasPermission(`ADMINISTRATOR`)) return await message.reply(`:x: Only administrators can configure timers for this server!`)
 
 
-for (var property in timers ) {
+for (var property in timers){
         fileToEdit.unset(`${property}`)
         fileToEdit.save()
         message.delete()
-        message.reply(`:white_check_mark: Stopped timer: ${otherName}!`)
+        message.reply(`:white_check_mark: Stopped timer: ${porperty}!`)
   }
+  
 
 
 }
