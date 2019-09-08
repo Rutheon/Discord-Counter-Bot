@@ -1,3 +1,4 @@
+/*
 const {bot} = require(`../index`);
 const config = require("../config.json");
 const fs = require(`fs`)
@@ -29,3 +30,5 @@ module.exports.help = {
     name: "stopalltimers",
     usage: "stopalltimers"
 }
+*/
+//not working
