@@ -1,0 +1,1 @@
+When the bot is initializing, it will create guild configs for all guilds in this directory!
