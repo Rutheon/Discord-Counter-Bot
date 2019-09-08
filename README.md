@@ -19,6 +19,10 @@ This project was only possible due to node.js and discord.js
 - Deploy it onto your desired VPS
 
 
+### Heroku Warning:
+
+If you are self-hosting on Heroku, anytime the bot shuts down or restarts, ALL the timers will be reset! It is much better to just run this on a dedicated VPS from DigitalOcean or Google Cloud!
+
 License
 ----
 
