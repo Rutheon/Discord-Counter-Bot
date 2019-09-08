@@ -15,7 +15,7 @@ if(!message.member.hasPermission(`ADMINISTRATOR`)) return await message.reply(`:
 
 
 for (var property in timers){
-        fileToEdit.unset(`${property}`)
+        fileToEdit.unset(property)
         fileToEdit.save()
         message.delete()
         message.reply(`:white_check_mark: Stopped timer: ${porperty}!`)
