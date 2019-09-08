@@ -29,7 +29,7 @@ for (var property in timers ) {
   }
   }
 
-  if(i = 0) return message.reply(`:x: There is no timer with that name!`);
+ return message.reply(`:x: There is no timer with that name!`);
 
 }
 
