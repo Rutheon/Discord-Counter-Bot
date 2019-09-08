@@ -24,6 +24,9 @@ if (!message.content.toLowerCase().startsWith(prefix.toLowerCase())){
 
 let commandfile = bot.commands.get(cmd.slice(prefix.length));
 
-if(commandfile) commandfile.run(bot,message,args);
+if(commandfile) commandfile.run(bot,message,args)
+	else {
+	return message.reply(`:x: That is not a command!`)
+	}
 
 })
