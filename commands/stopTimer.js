@@ -1,3 +1,4 @@
+/*
 const {bot} = require(`../index`);
 const config = require("../config.json");
 const fs = require(`fs`)
@@ -37,3 +38,6 @@ module.exports.help = {
     name: "stoptimer",
     usage: "stoptimer [timer name]"
 }
+*/
+
+// Not Ready yet
