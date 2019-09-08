@@ -12,7 +12,7 @@ module.exports.run = async (bot, message, args) => {
      .setThumbnail(sicon)
      .addField(`Start a timer`, `${prefix}starttimer [timer name]`)
      .addField(`Stop a timer`, `${prefix}stoptimer [timer name]`)
-     .addField(`Stop all timers`, `${prefix}stopalltimers`)
+    // .addField(`Stop all timers`, `${prefix}stopalltimers`)
      .addField(`See a timers duration`, `${prefix}timer [timer name]`)
      .addField(`List all timers`, `${prefix}listtimers`)
      .addField("Bot Prefix:", `${bot.config.prefix}`)
