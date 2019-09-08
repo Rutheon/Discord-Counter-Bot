@@ -23,15 +23,19 @@ if(!message.member.hasPermission(`ADMINISTRATOR`)) return await message.reply(`:
 
 let i = 0
 
+let timerAmount = 0
+
 for (var property in timers ) {
+    timerAmount++
     if(property == `${otherName}`){
         i++
         return message.reply(`:x: There is already a timer running with that same name!`)
   }
   }
 
-  if(i > 0) return;
 
+  if(timerAmount >= 10) return message.reply(`:x: You can only run 10 timers at a time in a guild!`);
+  if(i > 0) return;
 fileToEdit.set(`${otherName}`, `${dateTimeStamp}`)
 fileToEdit.save()
 
