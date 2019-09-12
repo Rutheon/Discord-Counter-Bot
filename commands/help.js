@@ -16,7 +16,7 @@ module.exports.run = async (bot, message, args) => {
      .addField(`See a timers duration`, `${prefix}timer [timer name]`)
      .addField(`List all timers`, `${prefix}listtimers`)
      .addField("Bot Prefix:", `${bot.config.prefix}`)
-     .setFooter(`Bot Created by: ${botOwner.tag}`)
+     .setFooter(`Bot Owned By: ${botOwner.tag} || Made by severepain || https://github.com/SeverePain/Discord-Counter-Bot`)
 	 .setTimestamp();
      message.channel.send(serverembed);
      return;
